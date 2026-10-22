@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Cinzel', serif;
+  }
+  .font-serif-reading {
+    font-family: 'Newsreader', Georgia, serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1c1917;
+}
+::-webkit-scrollbar-thumb {
+  background: #44403c;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #78716c;
+}

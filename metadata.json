@@ -1,0 +1,6 @@
+{
+  "name": "Lumina: Η Ιστορία & Τέχνη της Φωτογραφίας",
+  "description": "Διαδραστικό ιστορικό ταξίδι και οδηγός τεχνικής φωτογραφίας με αφήγηση Gemini TTS, προσομοιωτή τριγώνου έκθεσης και σύνθεσης.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
